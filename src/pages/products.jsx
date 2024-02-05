@@ -1,12 +1,9 @@
-import { Fragment } from "react";
+import { Fragment, useState, useEffect, useContext } from "react";
 import CardProduct from "../components/Fragments/CardProduct";
-import { useState } from "react";
-import { useEffect } from "react";
 import { getProducts } from "../services/product.service";
 import { useLogin } from "../hooks/useLogin";
 import TableCart from "../components/Fragments/TableCart";
-import NavBar from "../components/Layouts/NavBar";
-import { useContext } from "react";
+import NavBar from "../components/Layouts/Navbar";
 import { DarkMode } from "../context/DarkMode";
 
 const ProductsPage = () => {

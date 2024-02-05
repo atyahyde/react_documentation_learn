@@ -16,12 +16,6 @@ import { TotalPriceProvider } from "./context/TotalPriceContext";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: "hello world",
-    errorElement: <ErrorPage />,
-  },
-
-  {
-    path: "/login",
     element: <LoginPage />,
     errorElement: <ErrorPage />,
   },

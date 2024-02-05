@@ -35,6 +35,7 @@ const FormLogin = () => {
 
   return (
     <form onSubmit={handleLogin}>
+      <span className="text-sm text-gray-400">username: johnd</span>
       <InputForm
         label="Username"
         type="text"
@@ -42,6 +43,7 @@ const FormLogin = () => {
         name="username"
         ref={usernameRef}
       />
+      <span className="text-sm text-gray-400">password: m38rmF$</span>
       <InputForm
         label="Password"
         type="password"
